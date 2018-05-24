@@ -2,7 +2,7 @@
 To service request between Android application and NodeMCU for home automation using nodeJS
 
 
-#Initialisation
+### Initialisation
 
 > To initialise make sure you have node environment installed on your machine,
 > Then clone the repository and Type the command "npm init" on your node shell
