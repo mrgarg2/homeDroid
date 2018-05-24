@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <a href="showstatus.html">Show Device Status</a>
+    <br>
+    <a href="roomReg.html">Register Room</a>
+    <br>
+    <a href="showRoomStatus.html">Get Room Details</a>
+    <br>
+    <form action="/registerDevice" method="post">
+        <label for="">Enter Device ID</label>
+        <input type="text" name="id" id="deviceId">
+        <br>
+        <label for="">ENter Room Id</label>
+        <input type="text" name="roomId" id="roomId">
+        <br>
+        <label for="">Enter name of Device</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="">Enter Device Type</label>
+        <input type="text" name="type" id="type">
+        <br>
+        <label for="">Enter Device Status</label>
+        <input type="text" name="status" id="status">
+
+        <button type="submit">Register Device</button>
+    </form>
+</body>
+</html>
